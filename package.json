@@ -6,8 +6,7 @@
   "scripts": {
     "build": "webpack --config webpack.prod.config.js",
     "dev": "webpack-dev-server --config webpack.dev.config.js --open",
-
-    "heroku-postbuild": "npm run build",
+    "postinstall": "npm run build",
     "start": "node app.js"
   },
   "author": "eonicum",
