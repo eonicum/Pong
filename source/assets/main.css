@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "Arcade";
+    src: url("./Retroville NC.ttf");
+}
+
+body {
+    font-family: "Arcade";
+    background-color: black;
+    color: white;
+
+    width: 60%;
+    min-width: 600px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 0.8em 0;
+    text-align: center;
+}
+
+header > h1 {
+    margin: 0;
+    font-size: 2.2em;
+}
+
+header > p {
+    margin: 0;
+    margin-top: 0.2em;
+    color: yellowgreen;
+}
+
+canvas {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    border: solid 6px white;
+}
+
+footer {
+     margin: 0.4em 0;
+}
+
+footer > a {
+    text-decoration: none;
+    color: white;
+}
+
+.eror-message {
+    color: red;
+}

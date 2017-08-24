@@ -1,0 +1,30 @@
+{
+  "name": "pong_game",
+  "version": "1.0.0",
+  "description": "Multiplayer pong game",
+  "main": "app.js",
+  "scripts": {
+    "build": "webpack --config webpack.prod.config.js",
+    "dev": "webpack-dev-server --config webpack.dev.config.js --open"
+  },
+  "author": "eonicum",
+  "license": "MIT",
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.16",
+    "css-loader": "^0.28.4",
+    "file-loader": "^0.11.2",
+    "html-webpack-plugin": "^2.30.1",
+    "raw-loader": "^0.5.1",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.5.1",
+    "webpack-dev-server": "^2.7.1"
+  },
+  "dependencies": {
+    "eventemitter3": "^2.0.3",
+    "express": "^4.15.4",
+    "keymaster": "^1.6.2",
+    "normalize.css": "^7.0.0",
+    "p2": "^0.7.1",
+    "peerjs": "^0.3.14"
+  }
+}
