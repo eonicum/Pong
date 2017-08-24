@@ -12,7 +12,10 @@ export class Network extends EventEmitter
     {
         super();
 
-        this.peer = new Peer({ key: "n7skyxue4k46ajor" });
+        this.peer = new Peer({
+            key: "n7skyxue4k46ajor",
+            secure: true
+        });
         this.peer.on("open", (id) => this.networkInitialized());
         this.peer.on("connection", (channel) => this.incomingConnection(channel));
         this.peer.on("error", (error) => {
