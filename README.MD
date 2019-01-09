@@ -1,11 +1,7 @@
 # Мультиплеерный понг
 
 Предусмотрено два режима игры:
-
 1. Против искусственного интеллекта
 2. Против другого игрока по сети
 
-
-
-![Screenshot](./documentation/screenshot.png)
-
+![Screenshot](documentation/screenshot.PNG)
